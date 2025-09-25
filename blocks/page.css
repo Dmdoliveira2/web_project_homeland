@@ -1,0 +1,19 @@
+.page {
+  max-width: 1280px;
+  min-width: 768px;
+  margin: 0;
+  padding: 0;
+  transform: rotate(0deg);
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+  background-color: black;
+  color: #ffffff
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  font-family: "Inter", sans-serif;
+}

@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 830px;
+  height: 482px;
+
+}
+
+.introdução {
+  width: 830px;
+  height: 482px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  left: 148px;
+}
+
+.introdução__title {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  width: 830px;
+  height: 116px;
+  margin: 0;
+}
+
+.introdução__text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 0;
+  width: 738px;
+  height: 68px;
+}
+
+.introdução__nome {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 732px;
+  height: 34px;
+}
+
+.introdução__description {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+}
