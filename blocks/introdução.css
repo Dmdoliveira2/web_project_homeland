@@ -44,7 +44,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  letter-spacing: 0%;
   display: flex;
   justify-content: end;
   margin: 0;
@@ -60,7 +59,7 @@
 @media screen and (max-width: 768px) {
   .container {
     width: 720px;
-    height: 490;
+    height: 490px;
     padding: 24px;
   }
 
@@ -75,7 +74,6 @@
     font-weight: 900;
     font-size: 45px;
     line-height: 49px;
-    letter-spacing: 0%;
     width: 707px;
     height: 98px;
   }
@@ -85,9 +83,8 @@
     height: 102px;
     font-family: Inter;
     font-weight: 400;
-    font-size: 1.4;
-    line-height: 163%;
-    letter-spacing: 0%;
+    font-size: 24px;
+    line-height: 34px;
 
   }
 
@@ -105,7 +102,7 @@
     line-height: 163%;
     height: 182px;
     width: 720px;
-    margin: 24px 0 0 0;
+    margin: 10px 0 0 0;
   }
 
 }
@@ -114,7 +111,7 @@
   .container {
     width: 288px;
     height: 878px;
-    padding: 16px;
+    padding: 10px;
   }
 
   .introdução {
@@ -128,7 +125,6 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
-    letter-spacing: 0%;
     width: 288px;
     height: 140px;
   }
@@ -140,8 +136,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    letter-spacing: 0%;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
 
   }
 
@@ -161,7 +156,7 @@
     line-height: 163%;
     height: 442px;
     width: 288px;
-    margin: 16px 0 0 0;
+    margin: 10px 0 0 0;
   }
 
 }
