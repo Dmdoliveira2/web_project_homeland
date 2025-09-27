@@ -35,7 +35,7 @@
 
 }
 
-.header__descriptionheader {
+.header__description {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -48,10 +48,39 @@
   margin: 0 auto;
 }
 
-
-
 .header__image {
   width: 984px;
   height: 615px;
 
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 254px;
+    height: 66px;
+  }
+
+  .header__title {
+    font-size: 75px;
+    line-height: 79px;
+    width: 530px;
+    height: 158px;
+  }
+
+  .header__description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 15px 0 15px 0;
+  }
+
+  .header__image {
+    width: 768px;
+    height: 480px;
+  }
 }
