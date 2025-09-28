@@ -1,12 +1,3 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 830px;
-  height: 482px;
-
-}
-
 .introdução {
   width: 830px;
   height: 482px;
@@ -57,11 +48,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    width: 720px;
-    height: 490px;
-    padding: 24px;
-  }
 
   .introdução {
     width: 100%;
@@ -108,11 +94,6 @@
 }
 
 @media screen and (max-width: 320px) {
-  .container {
-    width: 288px;
-    height: 878px;
-    padding: 10px;
-  }
 
   .introdução {
     width: 100%;
