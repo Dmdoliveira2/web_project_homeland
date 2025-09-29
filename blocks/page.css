@@ -6,7 +6,7 @@
   transform: rotate(0deg);
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
-  background-color: black;
+  background: #2A2C2F;
   color: #ffffff
 }
 
@@ -14,7 +14,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: #000;
+  background: #2A2C2F;
   font-family: "Inter", sans-serif;
 }
 
