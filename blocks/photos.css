@@ -1,0 +1,17 @@
+.photos {
+  width: 1184px;
+  height: 442px;
+  display: grid;
+  margin: 0;
+  padding-left: 48px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.photos__grid {
+  width: 284px;
+  height: 213px;
+
+}
