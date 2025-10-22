@@ -19,6 +19,7 @@
   height: auto;
   padding-left: 148px;
   margin: 92px 0 40px;
+  transition: all 0.5s ease-in-out;
 }
 
 .intro__text {
@@ -32,6 +33,7 @@
   width: 100%;
   height: auto;
   margin: 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .intro__nome {
@@ -43,18 +45,20 @@
   justify-content: end;
   margin: 10px 0 32px;
   padding-left: 148px;
+  transition: all 0.5s ease-in-out;
 }
 
 .intro__description {
   font-family: Inter, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 1.63;
   max-width: 100%;
   width: 100%;
   height: auto;
   padding-left: 148px;
   margin: 0 0 118px;
+  transition: all 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
@@ -103,7 +107,7 @@
 
   .intro__description {
     font-size: 16px;
-    line-height: 163%;
+    line-height: 1.63;
     width: 100%;
     height: auto;
     margin: 32px 0 64px 0;
@@ -112,13 +116,40 @@
 
 }
 
+
+@media screen and (max-width: 460px) {
+
+  .intro__container {
+    max-width: 100%;
+    width: 400px;
+    margin: 0;
+    padding: 64px 16px 0 16px;
+
+  }
+
+  .intro {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+  }
+}
+
 @media screen and (max-width: 320px) {
+
+  .intro__container {
+    max-width: 100%;
+    width: 288px;
+    margin: 0;
+    padding: 64px 16px 0 16px;
+
+  }
 
   .intro {
     width: 100%;
     height: auto;
-    padding: 10px;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
   }
 
   .intro__title {
@@ -126,6 +157,7 @@
     line-height: 35px;
     max-width: 100%;
     height: auto;
+    margin: 0;
   }
 
   .intro__text {
@@ -135,7 +167,7 @@
     height: auto;
     font-family: Inter, sans-serif;
     font-weight: 400;
-    margin: 10px 0 0 0;
+    margin: 40px 0 0 0;
 
   }
 
@@ -145,17 +177,17 @@
     max-width: 100%;
     height: auto;
     justify-content: flex-end;
-    margin: 0;
+    margin: 10px 0 32px 0;
   }
 
   .intro__description {
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 163%;
+    line-height: 1.63;
     max-width: 100%;
     height: auto;
-    margin: 10px 0 0 0;
+    margin: 0 0 38px 0;
   }
 
 }

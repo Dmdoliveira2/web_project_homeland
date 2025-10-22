@@ -31,3 +31,26 @@
 
   }
 }
+
+@media screen and (max-width: 320px) {
+  .photos {
+    width: 100%;
+    max-width: 288px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 16px 0 16px;
+  }
+
+  .photos__grid {
+    width: 288px;
+    height: 216px;
+
+  }
+
+
+
+
+
+
+}
