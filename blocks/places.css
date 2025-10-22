@@ -86,7 +86,6 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 1.0;
-  letter-spacing: 0%;
   color: #fff;
 }
 
@@ -108,7 +107,6 @@
   line-height: 1.0;
   text-transform: uppercase;
   color: #AAAAAA;
-  letter-spacing: 12%;
   margin: 0 0 8px;
 }
 
@@ -118,7 +116,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0%;
+
 
 }
 
@@ -128,7 +126,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
-  letter-spacing: 0%;
   max-width: 100%;
   height: auto;
   margin: 48px 0 0 0;
@@ -140,7 +137,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
-  letter-spacing: 0%;
   max-width: 100%;
   height: auto;
   margin: 25px 0 0 0;
@@ -152,7 +148,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
-  letter-spacing: 0%;
   margin-top: 0;
 }
 
@@ -233,7 +228,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     font-size: 14px;
-
     margin: 24px 0 0 0;
   }
 
@@ -252,7 +246,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.63;
-    letter-spacing: 0%;
     margin-top: 0;
   }
 
@@ -306,7 +299,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.63;
-    letter-spacing: 0%;
   }
 
   .place__website {
@@ -381,7 +373,6 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 1.0;
-    letter-spacing: 0%;
     text-align: center;
 
   }
@@ -429,7 +420,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.63;
-    letter-spacing: 0%;
     margin: 25px 16px 0 16px;
   }
 
