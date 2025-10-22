@@ -1,4 +1,4 @@
-.places {
+.place {
   margin: 0 148px 0 148px;
   padding: 92px 0 0 0;
   width: 984px;
@@ -7,7 +7,7 @@
 
 }
 
-.place {
+.place__container {
   width: 100%;
   height: auto;
   display: grid;
@@ -89,9 +89,6 @@
   color: #fff;
 }
 
-.place__info {
-  margin-top: 161px;
-}
 
 .place__website {
   align-self: end;
@@ -152,7 +149,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .places {
+  .place {
     width: 720px;
     max-width: 100%;
     height: auto;
@@ -161,7 +158,7 @@
 
   }
 
-  .place {
+  .place__container {
     width: 100%;
     height: auto;
     display: grid;
@@ -254,7 +251,7 @@
 
 
 @media screen and (max-width: 480px) {
-  .place {
+  .place__container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -320,7 +317,7 @@
     padding: 0;
   }
 
-  .places {
+  .place {
     width: 320px;
     max-width: 100%;
     margin: 0;
@@ -328,7 +325,7 @@
 
   }
 
-  .place {
+  .place__container {
     width: 320px;
     max-width: 100%;
     height: auto;
