@@ -254,17 +254,13 @@
 
 
 @media screen and (min-width: 375px) and (max-width: 599px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
 
   .place {
     width: 100%;
-    max-width: auto;
-    height: auto;
-    margin: 0;
+    margin: 0 auto;
     padding: 88px 16px 0 16px;
+    display: flex;
+    justify-content: center;
 
   }
 
@@ -282,7 +278,7 @@
       "paragraph"
       "paragraph-two"
       "button";
-    justify-items: center;
+
 
   }
 
