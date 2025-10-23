@@ -149,6 +149,7 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
+
   .place {
     width: auto;
     max-width: 100%;
@@ -253,6 +254,20 @@
 
 
 @media screen and (min-width: 375px) and (max-width: 599px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .place {
+    width: 100%;
+    max-width: auto;
+    height: auto;
+    margin: 0;
+    padding: 88px 16px 0 16px;
+
+  }
+
   .place__container {
     width: 100%;
     max-width: auto;
