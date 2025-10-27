@@ -2,8 +2,7 @@
   .intro {
     width: 100%;
     height: auto;
-    align-items: center;
-    justify-content: center;
+
     margin: 0 auto;
 
   }
@@ -12,11 +11,7 @@
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+
   }
 
   .intro__title {
@@ -31,7 +26,7 @@
   .intro__text {
     font-family: Inter, sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 34px;
     line-height: 34px;
     margin: 0;
     transition: all 0.5s ease-in-out;
@@ -51,7 +46,7 @@
   .intro__description {
     font-family: Inter, sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 28px;
     line-height: 1.63;
     margin: 0 0 118px;
     transition: all 0.5s ease-in-out;
@@ -60,66 +55,15 @@
 
 }
 
-
-@media screen and (min-width: 769px) and (max-width: 979px) {
-  .intro__container {
-    margin: 0;
-    width: 100%;
-    max-width: 830px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    align-content: center;
-    height: auto;
-    padding: 0;
-    margin: 0 24px 0 24px;
-  }
-
-  .intro__title {
-    font-family: Inter, sans-serif;
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 49px;
-    max-width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 90px 37px 50px 0;
-
-  }
-
-  .intro__text {
-    max-width: 100%;
-    height: auto;
-    font-family: Inter, sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
-    padding: 0;
-  }
-
-  .intro__nome {
-    font-size: 18px;
-    line-height: 28px;
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+  .intro {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
   }
-
-  .intro__description {
-    font-size: 16px;
-    line-height: 1.63;
-    width: 100%;
-    height: auto;
-    margin: 32px 0 64px 0;
-    padding: 0;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
 
   .intro__container {
     margin: 0;
@@ -129,17 +73,20 @@
     position: static;
     padding-left: 0;
     padding: 0 24px 0 24px;
+    max-width: 100%;
+    width: auto;
+    align-items: center;
   }
 
   .intro__title {
     font-family: Inter, sans-serif;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 48px;
     line-height: 49px;
     max-width: 100%;
     height: auto;
     padding: 0;
-    margin: 90px 37px 50px 0;
+    margin: 90px 37px 0 0;
 
   }
 
@@ -148,15 +95,15 @@
     height: auto;
     font-family: Inter, sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 34px;
     padding: 0;
   }
 
   .intro__nome {
-    font-size: 18px;
+    font-size: 26px;
     line-height: 28px;
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     justify-content: flex-end;
@@ -165,7 +112,67 @@
   }
 
   .intro__description {
-    font-size: 16px;
+    font-size: 25px;
+    line-height: 1.63;
+    width: 100%;
+    height: auto;
+    margin: 32px 0 64px 0;
+    padding: 0;
+  }
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 979px) {
+
+  .intro__container {
+    margin: 0;
+    width: 100%;
+    max-width: auto;
+    height: auto;
+    position: static;
+    padding-left: 0;
+    padding: 0 24px 0 24px;
+    max-width: 100%;
+    width: auto;
+    align-items: center;
+  }
+
+  .intro__title {
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 55px;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 90px 37px 0 0;
+
+  }
+
+  .intro__text {
+    max-width: 100%;
+    height: auto;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    padding: 0;
+  }
+
+  .intro__nome {
+    font-size: 24px;
+    line-height: 38px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro__description {
+    font-size: 24px;
     line-height: 1.63;
     width: 100%;
     height: auto;
@@ -178,17 +185,62 @@
 @media screen and (min-width: 600px) and (max-width: 768px) {
 
   .intro__container {
+    margin: 0;
+    width: 100%;
+    max-width: auto;
+    height: auto;
+    position: static;
+    padding-left: 0;
+    padding: 0 24px 0 24px;
     max-width: 100%;
     width: auto;
-    margin: 0 24px 0 24px;
-    padding: 0;
     align-items: center;
 
   }
 
   .intro__title {
-    margin: 70px 0 45px 0;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 49px;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 90px 37px 50px 0;
+
   }
+
+  .intro__text {
+    max-width: 100%;
+    height: auto;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    padding: 0;
+  }
+
+  .intro__nome {
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro__description {
+    font-size: 16px;
+    line-height: 1.63;
+    width: 100%;
+    height: auto;
+    margin: 32px 0 64px 0;
+    padding: 0;
+  }
+
+
 }
 
 @media screen and (min-width: 425px) and (max-width: 599px) {
